@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumia.sn</title>
+    <link rel="stylesheet" href="siteJumia.css">
+    <script src="https://kit.fontawesome.com/431fa92df2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <div class="first_div">
+        <img class="image_en_tête" src="https://sn.jumia.is/cms/000000_2022/W27/FESTIVAL_ETE/STICKY/SN_W27_USER_BANNER_900x46_V2.jpg" alt="image d'en tête">
+    </div>
+    <div class="second_div">
+        <div class="vendre">
+            <a href="#">Vendez sur Jumia</a>
+        </div>
+        <div class="liens">
+            <a href="#">FOOD</a>
+            <a href="#">DEALS</a>
+            <a href="#">LOGISTICS</a>
+        </div>
+    </div>
+    <nav>
+        <img class="logo_jumia" src="images/Jumia-Logo.png" alt="logo Jumia">
+        <div class="barre_recherche">
+            <i class="fa-solid fa-magnifying-glass">
+            <input type="text" id="recherche" placeholder="Cherchez un produit, une marque ou une catégorie"></i>            
+            <button>RECHERCHER</button>
+        </div>
+        <div class="onglet">
+            <button onclick="maFonction1()" class="mybutton">
+                <i class="fa-solid fa-user"></i>&nbsp
+                Se connecter &nbsp<i class="fa-solid fa-angle-down"></i>
+            </button>
+            <div id="sous_menu1" class="sous_onglet">
+                <button>SE CONNECTER</button>
+                <a href="#"><i class="fa-solid fa-user"></i> &nbsp Votre compte</a>
+                <a href="#"><i class="fa-solid fa-store"></i>&nbsp Vos commandes</a>
+                <a href="#"><i class="fa-solid fa-heart"></i> &nbsp Votre liste d'envies</a>
+            </div>
+        </div>
+        <div class="onglet">
+            <button onclick="maFonction2()" class="mybutton">
+                <i class="fa-solid fa-circle-question"></i>&nbsp
+                Aide &nbsp<i class="fa-solid fa-angle-down"></i>
+            </button>
+            <div id="sous_menu2" class="sous_onglet">
+                <a href="#">Centre d'assistance</a>
+                <a href="#">Passer et suivre ma commande</a>
+                <a href="#">Annuler ma commande</a>
+                <a href="#">Retour & Remboursement</a>
+                <a href="#">Paiement et compte Jumia</a>
+                <button>CHAT EN DIRECT</button>
+            </div>
+        </div>
+        <div class="onglet">
+            <button class="mybutton"><i class="fa-solid fa-cart-shopping"></i>&nbsp Panier</button>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="third_div">
+        <div class="catégories">
+            <p><a href=""><i class="fa-solid fa-mobile-screen"></i> Téléphones & Tablettes</a></p>
+            <p><a href=""><i class="fa-solid fa-apple-whole"></i> Supermarché</a></p>
+            <p><a href=""><i class="fa-solid fa-temperature-arrow-up"></i> Santé & Beauté</a></p>
+            <p><a href=""><i class="fa-solid fa-tv"></i></i> Electronique</a></p>
+            <p><a href=""><i class="fa-solid fa-desktop"></i> Informatique</a></p>
+            <p><a href=""><i class="fa-solid fa-blender-phone"></i> Electroménager</a></p>
+            <p><a href=""><i class="fa-solid fa-house-chimney"></i> Maison et bureau</a></p>
+            <p><a href=""><i class="fa-solid fa-shirt"></i> Mode</a></p>
+            <p><a href=""><i class="fa-solid fa-baby"></i> Produits pour bébés</a></p>
+            <p><a href=""><i class="fa-solid fa-dumbbell"></i> Articles de sport</a></p>
+            <p><a href=""><i class="fa-solid fa-gamepad"></i> Jeu vidéos & Consoles</a></p>
+            <p><a href=""><i class="fa-solid fa-circle-info"></i></i> Autres catégories</a></p>
+        </div>
+        <div class="slide1">
+            <a href=""><img name="slide"></a>
+        </div>
+        <div class="infos">
+            <div class="infos_details">
+                <div class="details"><a href="">
+                    <img src="https://sn.jumia.is/cms/000_DesktopHomepage/2021/help-centerv4.png" alt="">
+                    <p class="para">Centre d'assistance</p>
+                    <p>Guide du service client</p>
+                </div></a>
+                <div class="details"><a href="">
+                    <img src="https://sn.jumia.is/cms/000_DesktopHomepage/2021/call-1-1.png" alt="">
+                    <p class="para">Commandez au</p>
+                    <p>30 102 21 21</p>
+                </div></a>
+                <div class="details"><a href="">
+                    <img src="https://sn.jumia.is/cms/000_DesktopHomepage/2021/icone-seller-1.png" alt="">
+                    <p class="para">Vendre sur Jumia</p>
+                    <p>Ouvrez votre shop ici</p>
+                </div></a>
+            </div>
+            <img class="image_gif" src="https://sn.jumia.is/cms/000000_2022/W34/EB/SN_W34_10K_218x184.gif" alt="">
+        </div>
+    </div>
+</main>
+
+<div class="slide2">
+    <button type="button" class="btn_left" id="btn_left">
+        <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <div id="slide2_img">
+        <img src="images/img9.jpeg" alt="">
+        <img src="images/img10.jpg" alt="">
+        <img src="images/img11.jpg" alt="">
+        <img src="images/img12.jpg" alt="">
+        <img src="images/img13.jpeg" alt="">
+        <img src="images/img14.jpg" alt="">
+        <img src="images/img15.jpg" alt="">
+        <img src="images/img16.jpg" alt="">
+        <img src="images/img17.jpg" alt="">
+        <img src="images/img18.jpg" alt="">
+        <img src="images/img19.jpg" alt="">
+        <img src="images/img20.jpg" alt="">   
+    </div>
+    <button type="button" class="btn_right" id="btn_right">
+        <i class="fa-solid fa-chevron-right"></i>
+    </button>
+</div>
+
+<script src="siteJumia.js"></script>
+</body>
+</html>
