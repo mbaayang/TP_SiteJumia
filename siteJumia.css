@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    padding: 0;
     background-color: #f1f1f1;
 }
 /*---------------------------EN-TÊTE---------------------------*/
@@ -65,6 +66,9 @@ nav{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
+.change{
+    display: block;
+}
 .sous_onglet a{
     color: black;
     padding: 8px 10px;
@@ -87,9 +91,6 @@ nav{
 .sous_onglet button:hover{
     background-color: #ee9004;
 }
-.change{
-    display: block;
-}
 .barre_recherche{
     display: flex;
     justify-content: space-around;
@@ -104,7 +105,8 @@ nav{
     cursor: pointer;
     border-radius: 5px;
     border: none;
-    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2)
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    font-size: 14px;
 }
 .fa-magnifying-glass{
     color: gray;
@@ -195,7 +197,7 @@ p{
     background-color: white;
 }
 #slide2_img {
-    width: 92%;
+    width: 93%;
     display: flex;
     flex-wrap: nowrap;
     margin-top: 13px;
@@ -210,6 +212,12 @@ p{
     border-radius: 10px;
     margin: 4px;
 }
+#slide2_img img:hover{
+    width: 127px;
+    height: 127px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin: 3px;
+}
 .btn_left, .btn_right{
     color: white;
     background-color: rgb(189, 186, 186);
@@ -221,4 +229,78 @@ p{
     cursor: pointer;
     border: none;
     margin: 5px;
+}
+
+
+@media screen and (max-width: 700px) {
+    nav, .slide2{
+        width: 100%;
+        margin: 0;
+    } 
+    .first_div, .second_div, .onglet span, .barre_recherche{
+        display: none;
+    }
+    .onglets{
+        display: flex;
+    }
+    .third_div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 330px;
+    } 
+    .slide1 img{
+        width: 350px;
+        height: 200px;
+    } 
+    .slide2{
+        margin-top: 340px;
+    }
+    .sous_onglet{
+        width: 150px;
+        margin-left: -60%;
+    }
+    .sous_onglet button{
+        width: 130px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+    nav, .slide2{
+        width: 100%;
+        margin: 0;
+    } 
+    .second_div, .barre_recherche{
+        display: none;
+    }
+    .onglets{
+        display: flex;
+    }
+    .third_div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 290px;
+    } 
+    .slide1 img{
+        width: 600px;
+        height: 300px;
+    } 
+    .infos{
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+        height: 210px;
+    }
+    .infos_details, .image_gif, .catégories{
+        width: 250px;
+    }
+    .image_gif{
+        margin: 0;
+    }
+    .slide2{
+        margin-top: 310px;
+    }
 }
