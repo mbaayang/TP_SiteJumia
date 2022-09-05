@@ -1,4 +1,4 @@
-//-------------------------Sous menu----------------------------
+//----------------------------------Sous menu----------------------------------------
 
 /* Lorsque l'utilisateur clique sur le bouton,
 basculer entre le masquage et l'affichage du contenu de la liste déroulante */
@@ -23,7 +23,7 @@ window.onclick = function(e) {
   }
 
 
-//---------------------------------Slide1-------------------------------
+//----------------------------------------Slide1----------------------------------------
   var imageSlides = ["images/img1.gif" , "images/img2.gif" , "images/img3.jpg" , "images/img4.jpg" , 
   "images/img_.jpg" , "images/img5.jpg" , "images/img6.jpg" , "images/img7.jpeg" , "images/img8.jpg" , "images/img_.jpeg"];
   var time = 3000;
@@ -43,7 +43,7 @@ window.onclick = function(e) {
   window.onload = changeImg;
 
 
-  //--------------------------------Slide2-----------------------------------
+  //---------------------------------------Slide2---------------------------------------
 var btnRight = document.getElementById("btn_right");
 var btnLeft = document.getElementById("btn_left");
 
