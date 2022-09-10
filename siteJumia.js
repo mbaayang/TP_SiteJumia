@@ -23,6 +23,12 @@ window.onclick = function(e) {
   }
 
 
+//----------------------------------Menu burger responsive----------------------------------
+function afficher(){
+  document.getElementById("categories").classList.toggle("affichage");
+}
+
+
 //----------------------------------------Slide1----------------------------------------
   var imageSlides = ["images/img1.gif" , "images/img2.gif" , "images/img3.jpg" , "images/img4.jpg" , 
   "images/img_.jpg" , "images/img5.jpg" , "images/img6.jpg" , "images/img7.jpeg" , "images/img8.jpg" , "images/img_.jpeg"];
